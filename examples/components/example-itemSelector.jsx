@@ -26,7 +26,8 @@ export default class ItemSelectorExample extends React.Component {
 
     let data = {
       title: 'Select an item:',
-      items: itemSelectorData
+      items: itemSelectorData,
+      displayArrow: false
     };
 
     data.selectedItem = this.state.selectedItem || data.items[21];

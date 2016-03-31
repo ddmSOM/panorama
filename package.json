@@ -1,5 +1,5 @@
 {
-  "name": "@panorama/toolkit",
+  "name": "@stamen/panorama",
   "version": "0.1.7",
   "description": "Panorama visualization toolkit",
   "main": "dist/components.min.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/americanpanorama/panorama.git"
+    "url": "git+https://github.com/stamen/panorama.git"
   },
   "keywords": [
     "visualization",
