@@ -38,7 +38,12 @@ module.exports = {
         commonjs2: 'react',
         amd: 'react'
       },
-      'react-dom': 'react-dom',
+      'react-dom': {
+        'commonjs': 'react-dom',
+        'commonjs2': 'react-dom',
+        'amd': 'react-dom',
+        'root': 'ReactDOM'
+      },
       'react-leaflet': 'react-leaflet',
       'topojson': 'topojson',
       'queue-async': 'queue-async'

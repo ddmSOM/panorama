@@ -6,7 +6,7 @@
 	else if(typeof exports === 'object')
 		exports["@panorama/toolkit"] = factory(require("react"), require("d3"), require("leaflet"), require("react-leaflet"), require("react-dom"), require("cartodb-client"), require("intro.js"), require("queue-async"));
 	else
-		root["@panorama/toolkit"] = factory(root["React"], root["d3"], root["leaflet"], root["react-leaflet"], root["react-dom"], root["cartodb-client"], root["intro.js"], root["queue-async"]);
+		root["@panorama/toolkit"] = factory(root["React"], root["d3"], root["leaflet"], root["react-leaflet"], root["ReactDOM"], root["cartodb-client"], root["intro.js"], root["queue-async"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_6__, __WEBPACK_EXTERNAL_MODULE_7__, __WEBPACK_EXTERNAL_MODULE_21__, __WEBPACK_EXTERNAL_MODULE_22__, __WEBPACK_EXTERNAL_MODULE_30__, __WEBPACK_EXTERNAL_MODULE_201__, __WEBPACK_EXTERNAL_MODULE_202__, __WEBPACK_EXTERNAL_MODULE_203__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -4432,8 +4432,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          'h3',
 	          null,
 	          this.props.title
-	        ) : '',
-	        this.props.displayArrow ? _react2['default'].createElement('div', { className: 'scroll-arrow up-arrow', onMouseDown: this.onArrowMouseDown, onMouseUp: this.onArrowMouseUp }) : '',
+	        ) : null,
+	        this.props.displayArrow ? _react2['default'].createElement('div', { className: 'scroll-arrow up-arrow', onMouseDown: this.onArrowMouseDown, onMouseUp: this.onArrowMouseUp }) : null,
 	        _react2['default'].createElement(
 	          'ul',
 	          { ref: 'item-list' },
@@ -4459,7 +4459,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            );
 	          })
 	        ),
-	        this.props.displayArrow ? _react2['default'].createElement('div', { className: 'scroll-arrow down-arrow', onMouseDown: this.onArrowMouseDown, onMouseUp: this.onArrowMouseUp }) : ''
+	        this.props.displayArrow ? _react2['default'].createElement('div', { className: 'scroll-arrow down-arrow', onMouseDown: this.onArrowMouseDown, onMouseUp: this.onArrowMouseUp }) : null
 	      );
 	    }
 	  }]);
