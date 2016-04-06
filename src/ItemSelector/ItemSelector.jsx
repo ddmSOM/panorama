@@ -174,8 +174,8 @@ export default class ItemSelector extends React.Component {
 
     return (
       <div className='panorama item-selector'>
-        { this.props.title ? <h3>{ this.props.title }</h3> : '' }
-        { this.props.displayArrow ? <div className='scroll-arrow up-arrow' onMouseDown={ this.onArrowMouseDown } onMouseUp={ this.onArrowMouseUp } /> : '' }
+        { this.props.title ? <h3>{ this.props.title }</h3> : null }
+        { this.props.displayArrow ? <div className='scroll-arrow up-arrow' onMouseDown={ this.onArrowMouseDown } onMouseUp={ this.onArrowMouseUp } /> : null }
         <ul ref='item-list'>
           { this.props.items.map((item, i) => {
 
@@ -197,7 +197,7 @@ export default class ItemSelector extends React.Component {
 
           }) }
         </ul>
-        { this.props.displayArrow ? <div className='scroll-arrow down-arrow' onMouseDown={ this.onArrowMouseDown } onMouseUp={ this.onArrowMouseUp } /> : '' }
+        { this.props.displayArrow ? <div className='scroll-arrow down-arrow' onMouseDown={ this.onArrowMouseDown } onMouseUp={ this.onArrowMouseUp } /> : null }
       </div>
     );
 
