@@ -47,47 +47,47 @@ Then, install the toolkit:
 ## Components
 The Panorama toolkit comprises a number of components that can be used individually, or wired together with the [Panorama Template](https://github.com/americanpanorama/panorama-template) as a starting point. Below is a list of the components available in the toolkit. Component examples are available [here](http://americanpanorama.github.io/panorama/).
 
-### [AreaChart](./src/AreaChart)
+### [AreaChart](./areachart)
 
-### [CartoDBLoader](./src/CartoDBLoader)
+### [CartoDBLoader](./cartodb-loader)
 
-### [CartoDBTileLayer](./src/CartoDBTileLayer)
+### [CartoDBTileLayer](./cartodb-tileLayer)
 
-### [ChartSlider](./src/ChartSlider)
+### [ChartSlider](./chartslider)
 
-### [Choropleth](./src/Choropleth)
+### [Choropleth](./choropleth)
 
-### [DiscreteBarChart](./src/DiscreteBarChart)
+### [DiscreteBarChart](./discretebarchart)
 
-### [Donut](./src/Leaflet/Donut)
+### [LeafletChoropleth](./leaflet-choropleth)
 
-### [HashManager](./src/HashManager)
+### [LeafletDonut](./leaflet-donut)
 
-### [HorizontalDiscreteBarChart](./src/HorizontalDiscreteBarChart)
+### [LeafletTooltip](./leaflet-tooltip)
 
-### [IntroManager](./src/IntroManager)
+### [HashManager](./hashmanager)
 
-### [ItemSelector](./src/ItemSelector)
+### [HorizontalDiscreteBarChart](./horizontaldiscretebarchart)
 
-### [LeafletChoropleth](./src/Leaflet/Choropleth)
+### [IntroManager](./intromanager)
 
-### [Legend](./src/Legend)
+### [ItemSelector](./itemselector)
 
-### [LineChart](./src/LineChart)
+### [Legend](./legend)
 
-### [Navigation](./src/Navigation)
+### [LineChart](./linechart)
 
-### [OffsetAreaChart](./src/OffsetAreaChart)
+### [Navigation](./navigation)
 
-### [Punchcard](./src/Punchcard)
+### [OffsetAreaChart](./offsetareachart)
 
-### [ScatterPlot](./src/ScatterPlot)
+### [Punchcard](./punchcard)
 
-### [TexturalList](./src/TexturalList)
+### [Scatterplot](./scatterplot)
 
-### [TimeBasedMarkers](./src/TimeBasedMarkers)
+### [TextList](./textlist)
 
-### [Tooltip](./src/Leaflet/Tooltip)
+### [TimeBasedMarkers](./timebasedmarkers)
 ---
 
 

@@ -1,0 +1,20 @@
+.panorama.line-chart {
+
+  path {
+    stroke: steelblue;
+    stroke-width: 1;
+    fill: none;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    stroke: #000;
+    fill: none;
+    shape-rendering: crispEdges;
+  }
+  
+}

@@ -1,27 +1,20 @@
 import d3 from 'd3';
 import { PropTypes } from 'react';
 import { D3ReactBase } from '../../charts-base';
-import ScatterplotD3 from './ScatterplotD3';
+import AreaChartD3 from './AreaChartD3';
 
-export default class Scatterplot extends D3ReactBase {
-  constructor (props) {
-    super(props);
-    this.chartConstructor = ScatterPlotD3;
-  }
+export default class AreaChart extends D3ReactBase {
 
   static propTypes = {...D3ReactBase.propTypes,
-    dotRadiusScale: PropTypes.func,
-    dotRadius: PropTypes.number,
-    dotRadiusAccessor: PropTypes.func,
-    dotColorScale: PropTypes.func,
-    dotColorAccessor: PropTypes.func
+    fillColor: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    fillOpacity: PropTypes.number,
+    interpolate: PropTypes.string
   };
 
   static defaultProps = {...D3ReactBase.defaultProps,
-    xScale: d3.scale.linear(),
-    yScale: d3.scale.linear(),
-    className: 'scatterplot',
-    dotRadius: 3,
+    xScale: d3.scale.ordinal(),
+    className: 'area-chart',
+    interpolate: 'basis',
     xaxis: {
       className: 'x axis',
       orient: 'bottom',
@@ -39,4 +32,10 @@ export default class Scatterplot extends D3ReactBase {
       orient: 'left',
     }
   };
+
+  constructor (props) {
+    super(props);
+    this.chartConstructor = AreaChartD3;
+  }
+
 }
