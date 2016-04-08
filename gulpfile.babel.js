@@ -4,6 +4,7 @@ import rimraf from 'rimraf';
 import gulp from 'gulp';
 import babel from 'gulp-babel';
 import sourcemaps from 'gulp-sourcemaps';
+import util from 'gulp-util';
 
 const basePath = './',
   srcPath = 'es6/',
@@ -17,6 +18,10 @@ const basePath = './',
     'node_modules'
   ];
 
+/**
+ * Get names of all the folders within `dir` that are not on the `ignoreFolders` list.
+ * @param  String dir Base path, to be searched for folders
+ */
 function getFolders (dir) {
 
   return fs.readdirSync(dir)
@@ -33,7 +38,9 @@ function getFolders (dir) {
 
 gulp.task('buildComponents', () => {
 
-  let folderNames = getFolders(basePath);
+  // if `--module modulename` is passed, only that module will be built;
+  // otherwise, all the modules will be built.
+  let folderNames = util.env.module ? [ util.env.module ] : getFolders(basePath);
 
   // build components
   folderNames.forEach(folder => {

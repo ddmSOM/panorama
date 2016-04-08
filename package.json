@@ -65,6 +65,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
     "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "rimraf": "^2.5.2",
