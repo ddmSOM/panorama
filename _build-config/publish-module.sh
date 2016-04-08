@@ -39,4 +39,4 @@ build () {
     npm publish
 }
 
-confirm "This will rebuild, version the application, and push to the git repo and npm registry. Are you sure? [y/N]" && build $1
+confirm "This will rebuild \"$1\", version the application, and push to the git repo and npm registry. Are you sure? [y/N]" && build $1
