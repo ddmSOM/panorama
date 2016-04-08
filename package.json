@@ -79,7 +79,7 @@
     "@stamen/cartodb-loader": "file:CartoDBLoader",
     "@stamen/cartodb-tilelayer": "file:CartoDBTileLayer",
     "@stamen/chartslider": "file:ChartSlider",
-    "@stamen/choropleth": "file:MapChoropleth",
+    "@stamen/choropleth": "file:Choropleth",
     "@stamen/discretebarchart": "file:DiscreteBarChart",
     "@stamen/hashmanager": "file:HashManager",
     "@stamen/horizontaldiscretebarchart": "file:HorizontalDiscreteBarChart",

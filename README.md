@@ -55,6 +55,8 @@ The Panorama toolkit comprises a number of components that can be used individua
 
 ### [ChartSlider](./src/ChartSlider)
 
+### [Choropleth](./src/Choropleth)
+
 ### [DiscreteBarChart](./src/DiscreteBarChart)
 
 ### [Donut](./src/Leaflet/Donut)
@@ -72,8 +74,6 @@ The Panorama toolkit comprises a number of components that can be used individua
 ### [Legend](./src/Legend)
 
 ### [LineChart](./src/LineChart)
-
-### [MapChoropleth](./src/MapChoropleth)
 
 ### [Navigation](./src/Navigation)
 

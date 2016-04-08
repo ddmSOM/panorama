@@ -12,7 +12,7 @@ export LeafletDonut from './LeafletDonut';
 export LeafletTooltip from './LeafletTooltip';
 export Legend from './Legend';
 export LineChart from './LineChart';
-export MapChoropleth from './MapChoropleth';
+export Choropleth from './Choropleth';
 export Navigation from './Navigation';
 export OffsetAreaChart from './OffsetAreaChart';
 export Punchcard from './Punchcard';

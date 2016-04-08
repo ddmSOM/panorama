@@ -1,9 +1,9 @@
 import d3 from 'd3';
 import { PropTypes } from 'react';
 import { D3ReactBase } from '../../charts-base';
-import MapChoroplethD3 from './MapChoroplethD3';
+import ChoroplethD3 from './ChoroplethD3';
 
-export default class MapChoropleth extends D3ReactBase {
+export default class Choropleth extends D3ReactBase {
   // extend superclass `props` validators
   static propTypes = {...D3ReactBase.propTypes,
     projection: PropTypes.string,
@@ -25,6 +25,6 @@ export default class MapChoropleth extends D3ReactBase {
 
   constructor (props) {
     super(props);
-    this.chartConstructor = MapChoroplethD3;
+    this.chartConstructor = ChoroplethD3;
   }
 }

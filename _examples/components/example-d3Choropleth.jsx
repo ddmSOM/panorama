@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import d3 from 'd3';
 import topojson from 'topojson';
-import { MapChoropleth } from '../../';
+import { Choropleth } from '../../';
 
 export default class D3ChoroplethExample extends Component {
   constructor () {
@@ -13,7 +13,7 @@ export default class D3ChoroplethExample extends Component {
     this.valueAccessor = (d) => {return this.vals[d.id];};
     this.vals = {};
 
-    // things for MapChoropleth
+    // things for Choropleth
     this.mapOptions = {
       tooltip: true,
       tooltipOptions: {
@@ -78,7 +78,7 @@ export default class D3ChoroplethExample extends Component {
   render () {
     return (
       <div>
-        <MapChoropleth
+        <Choropleth
           selected={this.state.selected}
           data={this.state.data} {...this.mapOptions}/>
       </div>
