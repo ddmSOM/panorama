@@ -1,5 +1,5 @@
 {
-  "name": "@stamen/panorama-rebuild",
+  "name": "@stamen/panorama",
   "version": "0.1.7",
   "description": "Panorama visualization toolkit",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "npm run dev-examples",
     "test": "jest",
     "lint": "eslint ./src",
-    "postinstall": "build-modules",
+    "postinstall": "npm run build-modules",
     "build-modules": "gulp build",
     "dev-modules": "gulp dev",
     "publish-modules": "./_build-config/publish-modules.sh",
