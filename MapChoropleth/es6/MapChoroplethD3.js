@@ -1,5 +1,5 @@
 import d3 from 'd3';
-import { D3Component } from '../../charts';
+import { D3Component } from '../../charts-base';
 
 export default class MapChoroplethD3 extends D3Component {
 

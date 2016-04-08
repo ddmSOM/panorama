@@ -1,6 +1,6 @@
 import d3 from 'd3';
 import { PropTypes } from 'react';
-import { D3ReactBase } from '../../charts';
+import { D3ReactBase } from '../../charts-base';
 import LineChartD3 from './LineChartD3';
 
 export default class LineChart extends D3ReactBase {

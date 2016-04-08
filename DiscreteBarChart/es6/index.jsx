@@ -1,6 +1,6 @@
 import d3 from 'd3';
 import { PropTypes } from 'react';
-import { D3ReactBase } from '../../charts';
+import { D3ReactBase } from '../../charts-base';
 import DiscreteBarChartD3 from './DiscreteBarChartD3';
 
 export default class DiscreteBarChart extends D3ReactBase {

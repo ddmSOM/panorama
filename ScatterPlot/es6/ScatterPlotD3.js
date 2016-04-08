@@ -1,5 +1,5 @@
 import d3 from 'd3';
-import { Axis, D3Component } from '../../charts';
+import { Axis, D3Component } from '../../charts-base';
 
 export default class ScatterPlotD3 extends D3Component {
 

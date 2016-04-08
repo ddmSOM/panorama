@@ -1,6 +1,6 @@
 import d3 from 'd3';
 import { PropTypes } from 'react';
-import { D3ReactBase } from '../../charts';
+import { D3ReactBase } from '../../charts-base';
 import MapChoroplethD3 from './MapChoroplethD3';
 
 export default class MapChoropleth extends D3ReactBase {

@@ -1,5 +1,5 @@
 import { PropTypes } from 'react';
-import { D3ReactBase } from '../../charts';
+import { D3ReactBase } from '../../charts-base';
 import AreaChart from '../../AreaChart';
 import OffsetAreaChartD3 from './OffsetAreaChartD3';
 
