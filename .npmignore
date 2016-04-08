@@ -1,0 +1,12 @@
+# Logs
+*.log
+npm-debug.log*
+
+# OSX, pleeze.
+.DS_Store
+
+# non-dist stuffs
+_examples
+_test
+ARCHITECTURE.md
+USEFUL_QUERIES.md

@@ -1,0 +1,14 @@
+{
+  "name": "CartoDBLoader",
+  "main": "./es5/index.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamen/panorama.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cartodb-client": "stamen/cartodb-client",
+    "d3-queue": "^2.0.3"
+  }
+}

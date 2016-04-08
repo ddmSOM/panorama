@@ -1,0 +1,91 @@
+@import 'components';
+
+/* styles used only for laying out examples page */
+
+html,
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  width: 100%;
+  margin-top: 100px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+h2:first-of-type {
+  margin-top: 20px;
+}
+
+.panorama.punchcard {
+  width: 600px;
+}
+
+
+.punchcard-header {
+  margin-bottom: 20px;
+  width: 600px;
+
+  h2 {margin-top: 0;}
+
+  .subtitle {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .caption {
+    display: inline-block;
+  }
+}
+
+.text-list-example {
+  width: 45%;
+  max-width: 600px;
+
+  .text-list-selecteditem {
+    margin-bottom: 0px;
+
+    h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .meta {
+      font-size: 12px;
+      margin-top: 3px;
+    }
+
+    .meta--item:last-child {
+      margin-left: 10px;
+    }
+  }
+
+  .list {
+     border: 1px solid #aaa;
+  }
+
+  .panorama.text-list {
+    padding: 5px 0;
+  }
+
+  .text-list--item {
+    padding: 0 10px;
+
+    h3 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: bold;
+      color: #6F6D29;
+      line-height: 1;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  }
+
+  .text-list--item + .text-list--item {
+    margin-top: 20px;
+  }
+}

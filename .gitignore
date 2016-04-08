@@ -1,0 +1,13 @@
+# Logs
+*.log
+npm-debug.log*
+
+# dependencies
+node_modules
+
+# built stuff
+**/es5
+_examples/public/examples.*
+
+# OSX, pleeze.
+.DS_Store

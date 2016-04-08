@@ -1,0 +1,13 @@
+{
+  "name": "ItemSelector",
+  "main": "./es5/index.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamen/panorama.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.8"
+  }
+}
