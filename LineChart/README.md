@@ -4,6 +4,7 @@
 
 Line charts are generally used to describe changes in a single value over time.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
 
 #### Usage
 ```js

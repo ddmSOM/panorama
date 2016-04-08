@@ -4,6 +4,8 @@
 
 A categorized view of a set of values, each with a label and simple graphical representation (a circle).
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';

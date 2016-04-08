@@ -1,5 +1,5 @@
 {
-  "name": "CartoDBTileLayer",
+  "name": "@stamen/cartodb-tilelayer",
   "main": "./es5/index.js",
   "version": "0.0.1",
   "repository": {

@@ -4,6 +4,8 @@
 
 Clickable legend that can be used to label and toggle layers of a visualization.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';

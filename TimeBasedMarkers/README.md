@@ -4,6 +4,8 @@
 
 Load and render GeoJSON features into a [`react-leaflet`](https://github.com/PaulLeCam/react-leaflet) map. Toggle features by timestamp.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';

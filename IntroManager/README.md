@@ -4,6 +4,8 @@
 
 React wrapper for [intro.js](https://usablica.github.io/intro.js/), a simple walkthrough builder library that highlights and annotates elements as defined by selectors.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';

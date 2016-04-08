@@ -1,5 +1,5 @@
 {
-  "name": "TextList",
+  "name": "@stamen/textlist",
   "main": "./es5/index.js",
   "version": "0.0.1",
   "repository": {

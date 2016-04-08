@@ -6,6 +6,8 @@ A collection of stacked AreaCharts, drawn with a vertical offset between each. E
 
 This component can also draw baselines for each embedded AreaChart that display the extent of each along the x-axis, and it can render dots on those baselines to indicate the presence of data at each discrete step on the x-axis. These features can be useful to indicate data that cannot be rendered as area charts, due to invalid or unformatted data.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';

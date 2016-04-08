@@ -4,6 +4,8 @@
 
 Area charts are generally used to describe changes in a single value over time. One might choose an area chart over a simple line chart in order to emphasize quantity, as represented by the area within the chart.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 
 #### Usage
 ```js

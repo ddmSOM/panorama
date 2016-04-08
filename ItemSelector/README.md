@@ -4,6 +4,8 @@
 
 A scrollable list of text items that fires events on selection. Similar to, but more customizable than, an HTML `<select>` element.
 
+Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
 #### Usage
 ```js
 import React from 'react';
