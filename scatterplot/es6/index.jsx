@@ -6,7 +6,7 @@ import ScatterplotD3 from './ScatterplotD3';
 export default class Scatterplot extends D3ReactBase {
   constructor (props) {
     super(props);
-    this.chartConstructor = ScatterPlotD3;
+    this.chartConstructor = ScatterplotD3;
   }
 
   static propTypes = {...D3ReactBase.propTypes,

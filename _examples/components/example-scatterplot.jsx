@@ -1,7 +1,7 @@
 import * as React from 'react';
 import d3 from 'd3';
 
-import { ScatterPlot } from '../../';
+import { Scatterplot } from '../../';
 
 export default class ScatterplotExample extends React.Component {
 
@@ -73,7 +73,7 @@ export default class ScatterplotExample extends React.Component {
     };
 
     return (
-      <ScatterPlot data={this.state.data} {...opts}/>
+      <Scatterplot data={this.state.data} {...opts}/>
     );
 
   }
