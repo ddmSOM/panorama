@@ -10,6 +10,7 @@
     "postinstall": "npm run build-modules",
     "build-modules": "gulp build",
     "dev-modules": "gulp dev",
+    "publish-module": "./_build-config/publish-module.sh",
     "publish-modules": "./_build-config/publish-modules.sh",
     "build-examples": "npm run clean-examples && webpack --config ./_examples/webpack.config.ghpage.js",
     "dev-examples": "npm run build-modules; npm run clean-examples && webpack-dev-server --config ./_examples/webpack.config.js --hot --inline --content-base _examples/public",
