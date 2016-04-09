@@ -5,10 +5,13 @@ import gulp from 'gulp';
 import babel from 'gulp-babel';
 import sourcemaps from 'gulp-sourcemaps';
 import util from 'gulp-util';
+import rename from 'gulp-rename';
 
 const basePath = './',
   srcPath = 'es6/',
   dstPath = 'es5/',
+  rootSrcPath = 'index.js',
+  rootDstPath = 'index-es5.js',
   ignoreFolders = [
     '.bin',
     '.git',
@@ -56,6 +59,13 @@ gulp.task('buildComponents', () => {
     });
 
   });
+
+  // build root (all-components package)
+  gulp.src(path.join(basePath, rootSrcPath))
+    .pipe(babel())
+    .pipe(rename(rootDstPath))
+    // .pipe(gulp.dest(path.join(basePath, rootDstPath)));
+    .pipe(gulp.dest(basePath));
 
 });
 

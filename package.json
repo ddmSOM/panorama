@@ -64,6 +64,7 @@
     "git-directory-deploy": "^1.5.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
     "json-loader": "^0.5.4",

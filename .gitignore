@@ -6,6 +6,7 @@ npm-debug.log*
 node_modules
 
 # built stuff
+index-es5.js
 **/es5
 _examples/public/examples.*
 
