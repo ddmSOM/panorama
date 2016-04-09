@@ -1,6 +1,6 @@
 {
   "name": "@stamen/panorama",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Panorama visualization toolkit",
   "main": "index-es5.js",
   "scripts": {
