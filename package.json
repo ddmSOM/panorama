@@ -7,7 +7,6 @@
     "start": "npm run dev-examples",
     "test": "jest",
     "lint": "eslint ./src",
-    "preinstall": "npm run build-modules",
     "build-modules": "gulp build",
     "dev-modules": "gulp dev",
     "publish-module": "./_build-config/publish-module.sh",
