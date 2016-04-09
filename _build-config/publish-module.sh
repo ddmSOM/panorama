@@ -33,7 +33,7 @@ build () {
     npm version patch;
 
     # manually create commit; component subfolders are not git repos and therefore `npm version` doesn't create a commit
-    git add .; git commit --m "npm version patch"
+    git add .; git commit --m "npm version bump"
 
     # push the version patch
     git push
