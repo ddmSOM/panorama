@@ -21,7 +21,7 @@ build () {
     npm run build-modules
 
     # create a version update (tag) commit
-    npm version minor
+    npm version patch
 
     # push the version patch
     git push
