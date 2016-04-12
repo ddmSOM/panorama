@@ -30,7 +30,7 @@ build () {
     cd ./$1;
 
     # create a version update (tag) commit
-    npm version patch;
+    npm version minor;
 
     # manually create commit; component subfolders are not git repos and therefore `npm version` doesn't create a commit
     git add .; git commit --m "npm version bump $1"
