@@ -30,7 +30,7 @@ export default class TextListItem extends Component {
   render () {
     let {renderItem, index, identifier} = this.props;
     return (
-      <div className='textural-list--item' data-id={identifier}>
+      <div className='text-list--item' data-id={identifier}>
         {renderItem(index)}
       </div>
     );
