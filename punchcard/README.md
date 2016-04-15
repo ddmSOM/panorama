@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Punchcard } from '@stamen/panorama';
+import { Punchcard } from '@stamen/punchcard';
 
 let punchcardConfig = {
   header: {

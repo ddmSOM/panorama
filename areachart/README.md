@@ -11,7 +11,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AreaChart } from '@stamen/panorama';
+import { AreaChart } from '@stamen/areachart';
 
 let areaChartConfig = {
   data: areaChartData,

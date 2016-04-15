@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { DiscreteBarChart } from '@stamen/panorama';
+import { DiscreteBarChart } from '@stamen/discretebarchart';
 
 let discreteBarChartConfig = {
   data: [

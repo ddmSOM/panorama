@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IntroManager } from '@stamen/panorama';
+import { IntroManager } from '@stamen/intromanager';
 
 let introManagerConfig = {
   open: true,

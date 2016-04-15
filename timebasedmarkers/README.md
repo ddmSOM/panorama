@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TimeBasedMarkers } from '@stamen/panorama';
+import { TimeBasedMarkers } from '@stamen/timebasedmarkers';
 
 let geoJson = {
   "features": [

@@ -10,12 +10,12 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Donut } from '@stamen/panorama';
+import { LeafletDonut } from '@stamen/leaflet-donut';
 
 let donutConfig = {
 	// TODO
 };
 
-ReactDOM.render(<Donut {...donutConfig}/>, document.body);
+ReactDOM.render(<LeafletDonut {...donutConfig}/>, document.body);
 ```
 

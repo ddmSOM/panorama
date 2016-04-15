@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { LineChart } from '@stamen/panorama';
+import { LineChart } from '@stamen/linechart';
 
 let lineChartConfig = {
   data: lineChartData,

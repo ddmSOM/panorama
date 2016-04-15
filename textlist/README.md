@@ -7,4 +7,4 @@ A list of text entries that will send scroll updates when top most entry in the 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
 
 #### Usage
-see example file [here](../../_examples/components/example-texturalList.jsx) for usage.
+see example file [here](../../_examples/components/example-textList.jsx) for usage.

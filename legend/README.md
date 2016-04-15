@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Legend } from '@stamen/panorama';
+import { Legend } from '@stamen/legend';
 
 let legendData = {
 	items: [

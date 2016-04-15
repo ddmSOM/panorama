@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ItemSelector } from '@stamen/panorama';
+import { ItemSelector } from '@stamen/itemselector';
 
 let items = [
   {

@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CartoDBTileLayer } from '@stamen/panorama';
+import { CartoDBTileLayer } from '@stamen/cartodb-tilelayer';
 
 ReactDOM.render(
   <Map>
