@@ -80,7 +80,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '..', 'build'),
     filename: 'components.js',
-    library: '@',
+    library: '@panorama/toolkit',
     libraryTarget: 'umd'
   },
 

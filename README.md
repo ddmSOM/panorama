@@ -39,7 +39,7 @@ If <= `2.7.0`, update npm:
 ### Install the toolkit
 Then, install the toolkit:
 
-`npm install @`
+`npm install @panorama/toolkit`
 
 ---
 
@@ -142,7 +142,7 @@ You can point a project's `package.json` to a GitHub repository in order to pull
 
 ```
 "dependencies": {
-    "@": "americanpanorama/panorama",
+    "@panorama/toolkit": "americanpanorama/panorama",
     ...
 }
 ```
@@ -151,20 +151,20 @@ Since the toolkit's [`package.json`](./package.json) specifies `dist/components.
 
 Then, `git commit` the build and `git push` it to the toolkit repo.
 
-Finally, switch over to your application that is using `@` and uninstall and reinstall the toolkit with these commands:
+Finally, switch over to your application that is using `@panorama/toolkit` and uninstall and reinstall the toolkit with these commands:
 
 ```
-npm uninstall @
-npm install @
+npm uninstall @panorama/toolkit
+npm install @panorama/toolkit
 ```
 
 Now, your new component will be available to your project.
 
 ##### B. `npm link`
 
-You can also link one local project directly to another via `npm link`. The procedure is explained [here](https://docs.npmjs.com/cli/link); basically this involves setting up a system-wide pointer to your local install of `@` and then symlinking to that install from your application using the toolkit.
+You can also link one local project directly to another via `npm link`. The procedure is explained [here](https://docs.npmjs.com/cli/link); basically this involves setting up a system-wide pointer to your local install of `@panorama/toolkit` and then symlinking to that install from your application using the toolkit.
 
-This process is less foolproof than pushing builds to GitHub because `npm link` also symlinks dependencies from `@`'s `node_modules` folder, and this can cause conflicts between / multiple copies of dependencies in the toolkit and in your application. That said, if you get it working it allows you to develop your new component and consume it in your application simultaneously, without the build/push steps above.
+This process is less foolproof than pushing builds to GitHub because `npm link` also symlinks dependencies from `@panorama/toolkit`'s `node_modules` folder, and this can cause conflicts between / multiple copies of dependencies in the toolkit and in your application. That said, if you get it working it allows you to develop your new component and consume it in your application simultaneously, without the build/push steps above.
 
 ##### C. Publish to npm
 
@@ -174,7 +174,7 @@ Once you're satisfied with the state of your new component, and you have a worki
 
 **Be certain you know what you're doing and are sure the toolkit is in working order before you run this script!** Publishing broken code can break other people's projects if they run `npm install`, and then you will get angry emails. We don't want angry emails.
 
-*Before running this script, you'll have to be logged into npm with username: `panorama` / email: `ericsoco@stamen.com`.* Contact a `@` administrator for the password. You can either login via [`npm login`](https://docs.npmjs.com/cli/adduser) or via [npm's website](https://www.npmjs.com/login).
+*Before running this script, you'll have to be logged into npm with username: `panorama` / email: `ericsoco@stamen.com`.* Contact a `@panorama/toolkit` administrator for the password. You can either login via [`npm login`](https://docs.npmjs.com/cli/adduser) or via [npm's website](https://www.npmjs.com/login).
 
 This script will automatically bump the toolkit version and publish the repo in its current state to npm. It runs [`.bin/publish-dist.sh`](./.bin/publish-dist.sh), which does these things:
 

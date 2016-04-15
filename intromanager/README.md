@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IntroManager } from '@';
+import { IntroManager } from '@panorama/toolkit';
 
 let introManagerConfig = {
   open: true,
@@ -42,7 +42,7 @@ let introManagerConfig = {
   ],
 
   onExit: () => {
-    // @ components strive to be stateless.
+    // @panorama/toolkit components strive to be stateless.
     // Therefore, consumers of IntroManager are expected to
     // pass open/closed state into the component.
     this.setState({
