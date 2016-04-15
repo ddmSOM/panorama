@@ -1,10 +1,10 @@
 ## DiscreteBarChart
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11770147/743ed722-a1ac-11e5-87ab-5d4b9ea673e9.png'>
-
 A simple vertical bar chart.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11770147/743ed722-a1ac-11e5-87ab-5d4b9ea673e9.png'>
 
 #### Usage
 ```js

@@ -1,10 +1,10 @@
 ## IntroManager
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11770141/742b39c4-a1ac-11e5-914f-9dc2966158ed.png'>
-
 React wrapper for [intro.js](https://usablica.github.io/intro.js/), a simple walkthrough builder library that highlights and annotates elements as defined by selectors.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11770141/742b39c4-a1ac-11e5-914f-9dc2966158ed.png'>
 
 #### Usage
 ```js

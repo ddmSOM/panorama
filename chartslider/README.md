@@ -1,10 +1,10 @@
 ## ChartSlider
 
-<img src='https://cdn0.iconfinder.com/data/icons/feather/96/circle-check-32.png'>
-
 An interactive overlay that can be applied over other charts, that enables selection along the x-axis.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cdn0.iconfinder.com/data/icons/feather/96/circle-check-32.png'>
 
 #### Usage
 ```js

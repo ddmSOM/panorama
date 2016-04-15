@@ -1,10 +1,10 @@
 ## TimeBasedMarkers
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11805256/32ba2428-a2bf-11e5-9b91-f7b15e223127.jpg'>
-
 Load and render GeoJSON features into a [`react-leaflet`](https://github.com/PaulLeCam/react-leaflet) map. Toggle features by timestamp.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11805256/32ba2428-a2bf-11e5-9b91-f7b15e223127.jpg'>
 
 #### Usage
 ```js

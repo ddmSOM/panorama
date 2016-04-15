@@ -1,7 +1,5 @@
 ## CartoDBTileLayer
 
-<img src='https://cdn0.iconfinder.com/data/icons/feather/96/circle-check-32.png'>
-
 Load and render tiles from CartoDB into a [`react-leaflet`](https://github.com/PaulLeCam/react-leaflet) map.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.

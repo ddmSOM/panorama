@@ -1,10 +1,10 @@
 ## Punchcard
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11770151/744bfde4-a1ac-11e5-9122-341154b5e85a.png'>
-
 A categorized view of a set of values, each with a label and simple graphical representation (a circle).
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11770151/744bfde4-a1ac-11e5-9122-341154b5e85a.png'>
 
 #### Usage
 ```js

@@ -1,10 +1,10 @@
 ## ItemSelector
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11770143/7432a538-a1ac-11e5-8e89-890621d263ca.png'>
-
 A scrollable list of text items that fires events on selection. Similar to, but more customizable than, an HTML `<select>` element.
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11770143/7432a538-a1ac-11e5-8e89-890621d263ca.png'>
 
 #### Usage
 ```js

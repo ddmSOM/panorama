@@ -1,10 +1,10 @@
 ## Choropleth
 
-<img src='https://cloud.githubusercontent.com/assets/1127259/11770142/74317d52-a1ac-11e5-99bb-d38fbcf7fa02.png'>
-
 A non-interactive choropleth, drawn with [d3](https://d3js.org/).
 
 Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama) toolkit.
+
+<img src='https://cloud.githubusercontent.com/assets/1127259/11770142/74317d52-a1ac-11e5-99bb-d38fbcf7fa02.png'>
 
 #### Usage
 ```js
