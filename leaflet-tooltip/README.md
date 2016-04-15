@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Tooltip } from '@panorama/toolkit';
+import { Tooltip } from '@stamen/panorama';
 
 let tooltipConfig = {
 	// TODO

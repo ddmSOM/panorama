@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Navigation } from '@panorama/toolkit';
+import { Navigation } from '@stamen/panorama';
 
 let navigationConfig = {
 	// TODO

@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ItemSelector } from '@panorama/toolkit';
+import { ItemSelector } from '@stamen/panorama';
 
 let items = [
   {
@@ -32,7 +32,7 @@ let itemSelectorConfig = {
   items: items,
   data: items[1],
   onItemSelected: (value, index) => {
-    // @panorama/toolkit components strive to be stateless.
+    // @stamen/panorama components strive to be stateless.
     // Therefore, consumers of ItemSelector are expected to
     // pass selection state back into the component.
     this.setState({

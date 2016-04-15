@@ -12,7 +12,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AreaChart } from '@panorama/toolkit';
+import { AreaChart } from '@stamen/panorama';
 
 let offsetAreaChartConfig = {
   width: 600,

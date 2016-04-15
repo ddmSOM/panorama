@@ -6,6 +6,6 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 
 #### Usage
 ```js
-import { CartoDBLoader } from @panorama/toolkit;
+import { CartoDBLoader } from @stamen/panorama;
 // TODO: usage
 ```
