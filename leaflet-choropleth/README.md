@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { LeafletChoropleth } from '@panorama/toolkit';
+import { LeafletChoropleth } from '@';
 
 let leafletChoroplethConfig = {
 	// TODO

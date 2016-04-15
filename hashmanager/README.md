@@ -6,6 +6,6 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 
 #### Usage
 ```js
-import { HashManager } from '@panorama/toolkit';
+import { HashManager } from '@';
 // TODO: usage
 ```

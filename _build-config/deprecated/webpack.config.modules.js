@@ -75,7 +75,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '..', 'dist-modules'),
     filename: '[name]/[name].js',
-    library: ['@panorama/toolkit', '[name]'],
+    library: ['@', '[name]'],
     libraryTarget: 'umd'
   },
 

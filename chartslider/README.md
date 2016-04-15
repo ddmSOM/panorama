@@ -10,7 +10,7 @@ Part of the [`@stamen/panorama`](https://www.npmjs.com/package/@stamen/panorama)
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ChartSlider } from '@panorama/toolkit';
+import { ChartSlider } from '@';
 
 let chartSliderConfig = {
   width: 600,
