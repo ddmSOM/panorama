@@ -1,19 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Abel|Oswald);.panorama--tooltip {
-  position: absolute;
-  display: none;
-  padding: 8px;
-  background: rgba(255, 255, 255, 0.8);
-  color: #333;
-  font-size: 12px;
-  border-radius: 4px;
-  border: 1px solid #aaa;
-  box-sizing: border-box;
-  pointer-events: none; }
-  .panorama--tooltip.active {
-    display: block; }
-
-.panorama--chart-container {
-  position: relative; }
+@import url(https://fonts.googleapis.com/css?family=Abel|Oswald);@charset "UTF-8";
 .panorama.area-chart path {
   stroke: none;
   fill: steelblue; }
@@ -26,38 +11,17 @@
   stroke: #000;
   fill: none;
   shape-rendering: crispEdges; }
-.panorama.chart-slider {
-  position: relative;
-  color: black;
-  border-color: black; }
-  .panorama.chart-slider svg {
-    fill: black;
-    stroke: black; }
-  .panorama.chart-slider .top-rule {
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    pointer-events: none; }
-  .panorama.chart-slider .d3-chart-slider {
-    position: absolute;
-    width: 100%;
-    height: 100%; }
-  .panorama.chart-slider .axis path,
-  .panorama.chart-slider .axis line {
-    fill: none; }
-  .panorama.chart-slider .secondary path,
-  .panorama.chart-slider .tertiary path {
-    display: none; }
-  .panorama.chart-slider .handle line {
-    stroke-width: 2px;
-    height: 100%; }
-  .panorama.chart-slider .handle path {
-    stroke: none;
-    fill: black; }
-  .panorama.chart-slider .handle .resize {
-    display: none; }
+
+.panorama.map.choropleth path {
+  fill: red;
+  stroke: white; }
+
+.panorama.map.choropleth .interactive path {
+  cursor: pointer; }
+
+.panorama.map.choropleth .hover-dupe {
+  pointer-events: none; }
+
 .panorama.bar-chart {
   position: relative; }
   .panorama.bar-chart svg {
@@ -80,12 +44,13 @@
     shape-rendering: crispEdges; }
   .panorama.bar-chart .x.axis path {
     display: none; }
+
 .panorama.intro-manager {
   display: none; }
 
 .introjs-tooltiptext {
   font-size: 0.66667em; }
-@charset "UTF-8";
+
 .panorama.item-selector {
   position: relative;
   display: inline-block;
@@ -96,7 +61,7 @@
   .panorama.item-selector ul {
     margin: 0;
     padding: 0 0.5em 0 0;
-    height: 65%;
+    height: 15em;
     overflow-y: auto; }
     .panorama.item-selector ul li {
       margin-bottom: 0.1em;
@@ -122,6 +87,7 @@
     .panorama.item-selector .scroll-arrow.down-arrow::before {
       -webkit-transform: rotate(0.25turn);
       transform: rotate(0.25turn); }
+
 .panorama-leaflet-tip {
   pointer-events: none; }
   .panorama-leaflet-tip .leaflet-popup-content-wrapper {
@@ -131,6 +97,7 @@
     display: none; }
   .panorama-leaflet-tip .leaflet-popup-content-wrapper {
     border-radius: 4px; }
+
 .panorama.legend {
   position: relative;
   width: auto;
@@ -174,6 +141,7 @@
       .panorama.legend ul li:nth-child(3) span:before {
         border-color: #768a66;
         background-color: rgba(118, 138, 102, 0.7); }
+
 .panorama.line-chart path {
   stroke: steelblue;
   stroke-width: 1;
@@ -187,15 +155,7 @@
   stroke: #000;
   fill: none;
   shape-rendering: crispEdges; }
-.panorama.map.choropleth path {
-  fill: red;
-  stroke: white; }
 
-.panorama.map.choropleth .interactive path {
-  cursor: pointer; }
-
-.panorama.map.choropleth .hover-dupe {
-  pointer-events: none; }
 #hamburger, #navburger {
   left: 20px;
   top: 7px; }
@@ -251,6 +211,7 @@
       text-align: center;
       font-family: 'Abel', sans-serif;
       font-size: 18px; }
+
 .panorama.offset-area-chart {
   position: relative; }
   .panorama.offset-area-chart .area {
@@ -263,6 +224,7 @@
     fill-opacity: 0.9; }
   .panorama.offset-area-chart .selected .lifespan, .panorama.offset-area-chart .selected circle {
     opacity: 0.9; }
+
 .panorama.punchcard {
   height: 100%;
   overflow-x: hidden;
@@ -299,34 +261,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     white-space: normal; }
-.panorama.time-based-markers-layer {
-  z-index: 1000;
-  pointer-events: none; }
-  .panorama.time-based-markers-layer.leaflet-d3-overlay {
-    position: absolute;
-    z-index: 1; }
-    .panorama.time-based-markers-layer.leaflet-d3-overlay svg {
-      overflow: visible; }
-  .panorama.time-based-markers-layer .time-based-label {
-    font-weight: bold; }
-  .panorama.time-based-markers-layer .time-based-label.with-outlines {
-    stroke: #f9f9f9; }
-    @supports (paint-order: stroke) {
-      .panorama.time-based-markers-layer .time-based-label.with-outlines {
-        paint-order: stroke;
-        stroke-width: 1.5px; } }
-    @supports not (paint-order: stroke) {
-      .panorama.time-based-markers-layer .time-based-label.with-outlines {
-        stroke-width: 0.25px; } }
-  .panorama.time-based-markers-layer .time-based-line {
-    stroke-width: 1;
-    stroke: black !important;
-    fill: none !important; }
-  .panorama.time-based-markers-layer .place {
-    fill: #666;
-    font-size: 1.0em; }
-    .panorama.time-based-markers-layer .place.secondary {
-      font-size: 0.8em; }
+
 .panorama.scatterplot {
   position: relative; }
   .panorama.scatterplot svg {
@@ -345,17 +280,19 @@
     fill: none;
     stroke: #000;
     shape-rendering: crispEdges; }
-.panorama.textural-list {
+
+.panorama.text-list {
   position: relative;
   display: block; }
 
-.panorama .textural-list--inner {
+.panorama .text-list--inner {
   padding-right: 15px;
   overflow-x: hidden;
   overflow-y: auto; }
 
-.panorama .textural-list--item {
+.panorama .text-list--item {
   cursor: default; }
+
 /* styles used only for laying out examples page */
 html,
 body {
@@ -383,36 +320,36 @@ h2:first-of-type {
   .punchcard-header .caption {
     display: inline-block; }
 
-.textural-list-example {
+.text-list-example {
   width: 45%;
   max-width: 600px; }
-  .textural-list-example .textural-list-selecteditem {
+  .text-list-example .text-list-selecteditem {
     margin-bottom: 0px; }
-    .textural-list-example .textural-list-selecteditem h3 {
+    .text-list-example .text-list-selecteditem h3 {
       font-size: 18px;
       margin: 0; }
-    .textural-list-example .textural-list-selecteditem .meta {
+    .text-list-example .text-list-selecteditem .meta {
       font-size: 12px;
       margin-top: 3px; }
-    .textural-list-example .textural-list-selecteditem .meta--item:last-child {
+    .text-list-example .text-list-selecteditem .meta--item:last-child {
       margin-left: 10px; }
-  .textural-list-example .list {
+  .text-list-example .list {
     border: 1px solid #aaa; }
-  .textural-list-example .panorama.textural-list {
+  .text-list-example .panorama.text-list {
     padding: 5px 0; }
-  .textural-list-example .textural-list--item {
+  .text-list-example .text-list--item {
     padding: 0 10px; }
-    .textural-list-example .textural-list--item h3 {
+    .text-list-example .text-list--item h3 {
       margin: 0;
       font-size: 15px;
       font-weight: bold;
       color: #6F6D29;
       line-height: 1; }
-    .textural-list-example .textural-list--item p {
+    .text-list-example .text-list--item p {
       margin: 8px 0;
       font-size: 13px;
       line-height: 1.4; }
-  .textural-list-example .textural-list--item + .textural-list--item {
+  .text-list-example .text-list--item + .text-list--item {
     margin-top: 20px; }
 
 /*# sourceMappingURL=examples.css.map*/
