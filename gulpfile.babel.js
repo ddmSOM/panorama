@@ -6,12 +6,14 @@ import babel from 'gulp-babel';
 import sourcemaps from 'gulp-sourcemaps';
 import util from 'gulp-util';
 import rename from 'gulp-rename';
+import sass from 'gulp-sass';
 
 const basePath = './',
   srcPath = 'es6/',
   dstPath = 'es5/',
-  rootSrcPath = 'index.js',
-  rootDstPath = 'index-es5.js',
+  toolkitSrcPath = 'index.js',
+  toolkitDstPath = 'index-es5.js',
+  toolkitScssDstPath = '_style.scss',
   ignoreFolders = [
     '.bin',
     '.git',
@@ -60,12 +62,24 @@ gulp.task('buildComponents', () => {
 
   });
 
-  // build root (all-components package)
-  gulp.src(path.join(basePath, rootSrcPath))
-    .pipe(babel())
-    .pipe(rename(rootDstPath))
-    // .pipe(gulp.dest(path.join(basePath, rootDstPath)));
-    .pipe(gulp.dest(basePath));
+  // build toolkit (all-components package) if not building only a specific module
+  if (!util.env.module) {
+
+    /*
+    // concatenate component styles
+    // TODO: finish this, not quite working yet
+    gulp.src('./!(node_modules)/_style.scss')
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest('./_style.scss'));
+    */
+    
+    // transpile toolkit index
+    gulp.src(path.join(basePath, toolkitSrcPath))
+      .pipe(babel())
+      .pipe(rename(toolkitDstPath))
+      .pipe(gulp.dest(basePath));
+
+  }
 
 });
 

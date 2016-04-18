@@ -7,6 +7,7 @@ node_modules
 
 # built stuff
 index-es5.js
+_style.scss
 **/es5
 _examples/public/examples.*
 
